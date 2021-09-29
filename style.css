@@ -1,8 +1,17 @@
 html,
 body,
 * {
-  padding: 0;
-  margin: 0;
-  border: ;
+  padding: 25;
+  margin: auto;
+  box-sizing: border-box;
+  width: 100%;
   font-size: 120%;
+}
+.parent {
+  display: flex;
+  justify-content: space-between;
+}
+.child {
+  border: solid #000000 0.1rem;
+  width: 29%;
 }
