@@ -6,12 +6,18 @@ body,
   box-sizing: border-box;
   width: 100%;
   font-size: 120%;
+  background-color: #ffebdc;
+  font-family: "Bebas Neue", cursive;
 }
 .parent {
   display: flex;
   justify-content: space-between;
-}
+  text-align: center;
+  background-color: #fff8dc;
+  border-radius: 0.6vw;
+  box-shadow: 
 .child {
   border: solid #000000 0.1rem;
   width: 29%;
+  background-color: #fffbc0;
 }
