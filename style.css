@@ -1,23 +1,22 @@
 html,
 body,
 * {
-  padding: 25;
-  margin: auto;
+  padding: 45;
+  margin: 5;
   box-sizing: border-box;
   width: 100%;
   font-size: 120%;
-  background-color: #ffebdc;
   font-family: "Bebas Neue", cursive;
 }
 .parent {
   display: flex;
   justify-content: space-between;
   text-align: center;
-  background-color: #fff8dc;
-  border-radius: 0.6vw;
-  box-shadow: 
+  border-radius: 2vw;
+}
 .child {
-  border: solid #000000 0.1rem;
+  border: solid #ffebdc 0.7rem;
+  border-radius: 0.7vw;
   width: 29%;
   background-color: #fffbc0;
 }
