@@ -1,22 +1,37 @@
 html,
 body,
 * {
-  padding: 45;
-  margin: 5;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
-  width: 100%;
-  font-size: 120%;
-  font-family: "Bebas Neue", cursive;
+  font-size: 62.5%;
+  background-color: lightslategray;
 }
 .parent {
   display: flex;
   justify-content: space-between;
   text-align: center;
-  border-radius: 2vw;
+  font-family: "Bebas Neue", cursive;
+  width: 100%;
+  height: auto;
+  margin: 5;
+  padding: 5;
+  font-size: 6rem;
+  height: 30%;
 }
 .child {
-  border: solid #ffebdc 0.7rem;
+  border: solid #f39044 0.7rem;
   border-radius: 0.7vw;
   width: 60%;
+  margin: 5;
+  background-color: #fffbc0;
+  box-shadow: 1rem 1rem 1rem #f38872;
+}
+.picture {
+  width: 480px;
+  height: 200px;
+  background-color: #fffbc0;
+}
+.description {
   background-color: #fffbc0;
 }
