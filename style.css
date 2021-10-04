@@ -7,6 +7,17 @@ body,
   font-size: 62.5%;
   background-color: rgb(119, 136, 153);
 }
+.title {
+  text-align: center;
+  font-size: 7.5rem;
+  padding: 3.5rem;
+  border: solid #f39044 0.7rem;
+  border-radius: 0.7vw;
+  width: 50%;
+  margin: auto;
+  background-color: #fffbc0;
+  box-shadow: 0.3rem 0.3rem 0.3rem #e9b77e;
+}
 .parent {
   display: flex;
   justify-content: space-between;
