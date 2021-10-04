@@ -37,6 +37,11 @@ body,
   margin: 5;
   background-color: #fffbc0;
   box-shadow: 0.3rem 0.3rem 0.3rem #e9b77e;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.child-1 {
+  z-index: 5;
 }
 .picture {
   width: 480px;
