@@ -5,6 +5,8 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+}
+body {
   background-color: rgb(119, 136, 153);
 }
 .title {
@@ -19,23 +21,24 @@ body,
   box-shadow: 0.3rem 0.3rem 0.3rem #e9b77e;
 }
 
-.parent {
+.gallery {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-around;
   text-align: center;
   font-family: "Bebas Neue", cursive;
-  width: 99.5%;
+  width: 99.7%;
   height: auto;
-  margin: 5;
+  margin: 5 auto;
   padding: 5;
   font-size: 6rem;
   height: 30%;
 }
-.child {
+.card {
   border: solid #f39044 0.7rem;
   border-radius: 0.7vw;
-  width: 60%;
-  margin: 5;
+  width: 30%;
+  margin: 6 30;
   background-color: #fffbc0;
   box-shadow: 0.3rem 0.3rem 0.3rem #e9b77e;
   -webkit-transition: all 0.3s;
@@ -49,52 +52,19 @@ body,
 .description {
   background-color: #fffbc0;
 }
-.child-1:hover {
+.card1:hover {
   transform: scale(1.014);
   outline: 0.1rem solid #f39044;
 }
-.child-2:hover {
+.card2:hover {
   transform: translate(2%, 5%);
 }
-.child-3:hover {
+.card3:hover {
   transform: skewX(15deg);
 }
-.child-4:hover {
+.card4:hover {
   transform: rotate(5deg);
 }
-.child-5:hover {
+.card5:hover {
   transform: matrix(0.7, 0.2, 0.1, 0.8, 1.2, 0.6);
-}
-.animation {
-  width: 2rem;
-  height: 2rem;
-  animation: test 5s infinite;
-  position: absolute;
-}
-@keyframes test {
-  0% {
-    left: 45%;
-    top: 10%;
-    background-color: #000;
-  }
-  25% {
-    left: 55%;
-    top: 10%;
-    background-color: #000;
-  }
-  50% {
-    left: 55%;
-    top: 15%;
-    background-color: #000;
-  }
-  75% {
-    left: 45%;
-    top: 15%;
-    background-color: #000;
-  }
-  100% {
-    left: 45%;
-    top: 10%;
-    background-color: #000;
-  }
 }
