@@ -20,7 +20,11 @@ body {
   background-color: #fffbc0;
   box-shadow: 0.3rem 0.3rem 0.3rem #e9b77e;
 }
-
+@media (max-width:1200px){
+  body{
+    background-color:rgb(47, 82, 82);
+  }
+}
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -48,6 +52,7 @@ body {
   width: 480px;
   height: 200px;
   background-color: #fffbc0;
+  animation: animation normal ease 2s;
 }
 .description {
   background-color: #fffbc0;
@@ -67,4 +72,11 @@ body {
 }
 .card5:hover {
   transform: matrix(0.7, 0.2, 0.1, 0.8, 1.2, 0.6);
+}
+@keyframes animation {
+  0% {
+    opacity: 0;
+  100% {
+    opacity: 1;
+  }
 }
