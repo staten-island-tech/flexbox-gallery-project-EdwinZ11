@@ -41,7 +41,7 @@ body {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1500px) {
   .card {
     width: 40%;
     height: 35rem;
