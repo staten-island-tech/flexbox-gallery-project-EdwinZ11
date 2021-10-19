@@ -25,15 +25,15 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 5 auto;
-  padding: 5;
+  margin: .5rem auto;
+  padding: .5rem;
 }
 .card {
   width: 30%;
   height: 30rem;
   border: solid #f39044 0.7rem;
   border-radius: 0.7vw;
-  margin: 6 30;
+  margin: .6rem 3rem;
   background-color: #fffbc0;
   box-shadow: 0.3rem 0.3rem 0.3rem #e9b77e;
   text-align: center;
@@ -55,7 +55,7 @@ body {
   .card {
     width: 85%;
     height: 45rem;
-    font-size: 3.2  rem;
+    font-size: 3.2rem;
   }
   .title {
     font-size: 3.7rem;
