@@ -49,6 +49,7 @@ body {
   }
   .title {
     font-size: 5.5rem;
+    width: 60%;
   }
 }
 @media screen and (max-width: 600px) {
@@ -59,6 +60,7 @@ body {
   }
   .title {
     font-size: 3.7rem;
+    width: 85%;
   }
 }
 .picture {
